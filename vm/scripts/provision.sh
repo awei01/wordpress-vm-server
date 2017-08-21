@@ -10,7 +10,7 @@ cat <<STOP
 |--------------------------
 STOP
 
-apt-get update
+sudo apt-get update
 
 . $DIR/install/git.sh
 # . $DIR/install/mysql.sh

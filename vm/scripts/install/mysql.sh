@@ -12,7 +12,7 @@ hash mysql 2>/dev/null 2>&1 && {
 	echo 'MySQL already installled'
 } || {
 	echo 'Installing...'
-	apt-get install mysql-server -y
-	mysql_install_db
-	mysql_secure_installation
+	sudo apt-get install mysql-server -y
+	sudo mysql_install_db
+	sudo mysql_secure_installation
 }

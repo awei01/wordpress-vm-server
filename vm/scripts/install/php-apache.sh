@@ -12,13 +12,13 @@ hash php 2>/dev/null 2>&1 && {
 	echo 'PHP & Apache already installled'
 } || {
 	echo 'Installing...'
-	add-apt-repository ppa:ondrej/php -y
-	apt-get update
-	apt-get install php5.6 -y
-	apt-get install php5.6-curl -y
-	apt-get install php5.6-mcrypt -y
-	apt-get install php5.6-mysql -y
-	a2enmod rewrite
+	sudo add-apt-repository ppa:ondrej/php -y
+	sudo apt-get update
+	sudo apt-get install php5.6 -y
+	sudo apt-get install php5.6-curl -y
+	sudo apt-get install php5.6-mcrypt -y
+	sudo apt-get install php5.6-mysql -y
+	sudo a2enmod rewrite
 	RESTART=true
 }
 

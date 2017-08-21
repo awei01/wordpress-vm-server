@@ -7,6 +7,6 @@ cat <<STOP
 
 STOP
 
-apt-get autoremove
-apt-get autoclean
-apt-get clean
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get clean
