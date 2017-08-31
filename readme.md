@@ -27,6 +27,9 @@ This repository is based off of the following:
 * Copy and edit the `.env.sample` to `.env`: `cp .env.sample .env`
 * Copy and edit the apache config file: `cp server/apache.example.conf server/apache.dev.conf`
 * Symbolic link your apache config file so apache will use it: `sudo ln -s /srv/server/apache.dev.conf /etc/apache2/sites-enabled/apache.dev.conf`
+
+add note about permissions for storage folder
+
 * Remove the pre-installed apache configuration file: `sudo rm /etc/apache2/sites-enabled/000-default.conf`
 * Restart apache: `sudo service apache2 restart`
 
