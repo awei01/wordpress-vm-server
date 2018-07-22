@@ -8,4 +8,6 @@
 * Clone this repository into a folder: `git clone <repo url> <folder path>`
 * Enter the folder: `cd <folder path>`
 * Fire up Vagrant: `vagrant up`
+* Browse to the server: http://192.168.168.168
+
 
