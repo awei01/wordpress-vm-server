@@ -1,0 +1,38 @@
+{
+    "name": "awei01/version-controlled-wordpress",
+    "description": "Version controlled wordpress boilerplate",
+    "keywords": ["wordpress", "version control"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "awei",
+            "email": "awei01@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "2.4",
+        "illuminate/cache": "^5.0",
+        "illuminate/filesystem": "^5.0",
+        "symfony/var-dumper": "^2.8",
+        "johnpbloch/wordpress": "4.6.1",
+        "wpackagist-plugin/sqlite-integration": "1.8.1",
+        "wpackagist-plugin/disable-all-wp-updates": "1.0.1"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "wp-plugins/{$name}": ["type:wordpress-plugin"],
+            "wp-themes/{$name}": ["type:wordpress-theme"]
+        }
+    },
+    "config": {
+    	"preferred-install": "dist"
+    }
+}
