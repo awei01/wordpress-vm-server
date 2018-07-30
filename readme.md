@@ -21,3 +21,7 @@ This repository is based off of the following:
 
 ## Notes
 * The VM is pre-configured to use the ip address `192.168.168.168`. You may want to edit the `Vagrantfile` to change the ip address. You also may want to edit your `/etc/hosts/` (or equivalent) to point your domain name to this ip address
+
+## Gotchas
+
+On Windows, the new line characters are corrupted. Not sure how to prevent this. But the workaround is to SSH into the VM and then re-clone this repository and run the scripts folder. 
