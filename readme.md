@@ -24,4 +24,4 @@ This repository is based off of the following:
 
 ## Gotchas
 
-On Windows, the new line characters are corrupted. Not sure how to prevent this. But the workaround is to SSH into the VM and then re-clone this repository and run the scripts folder. 
+On Windows, the new line characters are corrupted. Not sure how to prevent this. But the workaround is to SSH into the VM and then re-clone this repository and run the scripts folder. I've added `.gitattributes` to try to fix this.
